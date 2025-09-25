@@ -1,3 +1,4 @@
+! pip insatll matplotlib
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -65,3 +66,4 @@ if uploaded_file:
         ax.legend()
         ax.grid(True)
         st.pyplot(fig)
+
